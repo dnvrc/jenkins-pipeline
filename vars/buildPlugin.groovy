@@ -109,7 +109,7 @@ def call(body) {
         // Do nothing
         break
       default:
-        error("Unknown Jenkins organization configuration ${fullJobName}")
+        // error("Unknown Jenkins organization configuration '${fullJobName}'")
         break
     }
 
