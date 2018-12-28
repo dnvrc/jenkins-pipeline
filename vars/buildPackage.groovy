@@ -19,7 +19,7 @@ def alert(String color, String message, Exception e=null) {
         msg = "${msg}: ${e.message}"
     }
 
-    slackSend color: color, message: msg
+    // slackSend color: color, message: msg
 }
 
 @NonCPS
